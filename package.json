@@ -74,6 +74,7 @@
     "start-demo": "run-s start-demo:*",
     "start-demo:dev-chain": "yarn start-dev-chain",
     "start-demo:dev-frontend": "yarn workspace @liquity/dev-frontend start-demo",
+    "start": "node server.js",
     "stop-demo": "yarn stop-dev-chain",
     "test": "run-s test:*",
     "test:lib-base": "yarn workspace @liquity/lib-base test",
@@ -98,5 +99,9 @@
     "semantic-release": "^17.4.2",
     "semantic-release-monorepo": "^7.0.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7"
+  }
 }
