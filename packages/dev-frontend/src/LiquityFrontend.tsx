@@ -74,6 +74,15 @@ export const LiquityFrontend: React.FC<LiquityFrontendProps> = ({ loader }) => {
                       <Route path="/redemption">
                         <RedemptionPage />
                       </Route>
+                      <Route path="/b-protocol">
+                        <iframe
+                          height="800px"
+                          width="100%"
+                          frameBorder="0"
+                          src={"/b-protocol?hideNav=true"}
+                          // style={{ frameBorder: 0 }}
+                        ></iframe>
+                      </Route>
                     </Switch>
                   </Container>
                 </Flex>

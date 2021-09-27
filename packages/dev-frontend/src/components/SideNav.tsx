@@ -41,6 +41,7 @@ export const SideNav: React.FC = () => {
           <Link to="/farm">Farm</Link>
           <Link to="/risky-troves">Risky Troves</Link>
           <Link to="/redemption">Redemption</Link>
+          <Link to="/b-protocol">B-Protocol</Link>
         </Box>
       </Flex>
     </Container>
