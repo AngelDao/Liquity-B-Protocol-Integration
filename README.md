@@ -36,7 +36,7 @@ This repo implments B-Protocol into the offical Liquity Protocol frontend.
 
 - `packages/dev-frontend/src/components/SideNav.tsx`
 
-  Add this `Link` as the last component within the last `Flex` component
+  Add this `Link` as the last component within the `Box` component
 
 ```
 <Link to="/b-protocol">B-Protocol</Link>
